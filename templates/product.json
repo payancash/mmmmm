@@ -137,11 +137,25 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_zK4xxb": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"sin-con-video-section\">\n  <h2 class=\"sin-con-video-title\">Sin ella · Con ella</h2>\n\n  <div class=\"sin-con-video-wrapper\">\n    <video\n      class=\"sin-con-video\"\n      autoplay\n      muted\n      loop\n      playsinline\n      preload=\"metadata\"\n    >\n      <source\n        src=\"https://cdn.shopify.com/videos/c/o/v/40a8aa701bfc477383560e012699ad90.mp4\"\n        type=\"video/mp4\"\n      >\n    </video>\n  </div>\n</section>\n\n<style>\n  .sin-con-video-section {\n    width: 100%;\n    margin: 0;\n    padding: 18px 0 0;\n    overflow: hidden;\n    background: #ffffff;\n    text-align: center;\n  }\n\n  .sin-con-video-title {\n    margin: 0 15px 12px;\n    color: #111111;\n    font-family: Georgia, \"Times New Roman\", serif;\n    font-size: 29px;\n    font-weight: 700;\n    line-height: 1.15;\n  }\n\n  .sin-con-video-wrapper {\n    width: 100%;\n    margin: 0;\n    padding: 0;\n    line-height: 0;\n    background: #f6efeb;\n  }\n\n  .sin-con-video {\n    display: block;\n    width: 100%;\n    height: auto;\n    margin: 0;\n    border: 0;\n    object-fit: cover;\n    pointer-events: none;\n  }\n\n  @media screen and (max-width: 390px) {\n    .sin-con-video-title {\n      font-size: 26px;\n    }\n  }\n</style>\n\n<script>\n  document.querySelectorAll('.sin-con-video').forEach(function(video) {\n    video.muted = true;\n    video.play().catch(function() {});\n  });\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "custom_liquid_iRPkn7",
-    "custom_liquid_zxQFP6"
+    "custom_liquid_zxQFP6",
+    "custom_liquid_zK4xxb"
   ]
 }
