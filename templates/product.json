@@ -28,16 +28,6 @@
             "heading_tag": "h2"
           }
         },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -48,16 +38,18 @@
           "type": "payment_terms",
           "settings": {}
         },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
         "description": {
           "type": "description",
           "settings": {
             "icon": "none",
             "icon_width": 20,
             "collapse_content": false
+          }
+        },
+        "liquid_YKDbG7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-benefits-image\">\n  <img\n    src=\"https://cdn.shopify.com/s/files/1/0941/3764/7370/files/ChatGPT_Image_4_aout_2026_14_51_49.png?v=1785851620\"\n    alt=\"Avantages de la Braga Moldeadora de Talle Alto\"\n    loading=\"lazy\"\n    width=\"1200\"\n    height=\"auto\"\n  >\n</div>\n\n<style>\n  .product-benefits-image {\n    width: 100%;\n    margin: 0;\n    padding: 0;\n    line-height: 0;\n    text-align: center;\n  }\n\n  .product-benefits-image img {\n    display: block;\n    width: 100%;\n    max-width: 700px;\n    height: auto;\n    margin: 0 auto;\n    padding: 0;\n    border: 0;\n  }\n\n  @media screen and (max-width: 749px) {\n    .product-benefits-image {\n      margin-top: -10px;\n      margin-bottom: -10px;\n    }\n  }\n</style>"
           }
         },
         "variant_picker": {
@@ -91,12 +83,10 @@
         "vendor",
         "liquid_xbh8KL",
         "title",
-        "badges",
-        "price",
         "rating",
         "payment_terms",
-        "separator",
         "description",
+        "liquid_YKDbG7",
         "variant_picker",
         "quantity_selector",
         "buy_buttons"
