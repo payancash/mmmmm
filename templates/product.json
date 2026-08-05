@@ -16,6 +16,12 @@
           "type": "vendor",
           "settings": {}
         },
+        "liquid_xbh8KL": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"mi-forma-proof\">\n  <div class=\"mi-forma-proof__avatars\">\n    <img src=\"https://i.pravatar.cc/80?img=47\" alt=\"Cliente vérifiée\">\n    <img src=\"https://i.pravatar.cc/80?img=32\" alt=\"Cliente vérifiée\">\n    <img src=\"https://i.pravatar.cc/80?img=44\" alt=\"Cliente vérifiée\">\n  </div>\n\n  <div class=\"mi-forma-proof__content\">\n    <div class=\"mi-forma-proof__rating\">\n      <span class=\"mi-forma-proof__stars\">★★★★★</span>\n      <strong>4,8/5</strong>\n    </div>\n\n    <div class=\"mi-forma-proof__text\">\n      <strong>Plus de 6 000 femmes françaises</strong>\n      <span>ont déjà choisi Lymphorya</span>\n    </div>\n  </div>\n</div>\n\n<style>\n  .mi-forma-proof {\n    width: 100%;\n    display: flex;\n    align-items: center;\n    gap: 12px;\n    margin: 0 0 14px;\n    padding: 10px 15px;\n    box-sizing: border-box;\n    background: #B3437A;\n    border: 1px solid #B3437A;\n    border-radius: 15px;\n    color: #ffffff;\n    font-family: Arial, Helvetica, sans-serif;\n  }\n\n  .mi-forma-proof__avatars {\n    display: flex;\n    align-items: center;\n    flex-shrink: 0;\n  }\n\n  .mi-forma-proof__avatars img {\n    width: 30px;\n    height: 30px;\n    margin-left: -8px;\n    object-fit: cover;\n    border: 2px solid #ffffff;\n    border-radius: 50%;\n  }\n\n  .mi-forma-proof__avatars img:first-child {\n    margin-left: 0;\n  }\n\n  .mi-forma-proof__content {\n    min-width: 0;\n  }\n\n  .mi-forma-proof__rating {\n    display: flex;\n    align-items: center;\n    gap: 5px;\n    margin-bottom: 3px;\n    font-size: 14px;\n    line-height: 1;\n  }\n\n  .mi-forma-proof__stars {\n    color: #f6c24b;\n    font-size: 14px;\n    letter-spacing: 0;\n    white-space: nowrap;\n  }\n\n  .mi-forma-proof__rating strong {\n    color: #ffffff;\n  }\n\n  .mi-forma-proof__text {\n    font-size: 13px;\n    line-height: 1.25;\n    letter-spacing: 0.01em;\n  }\n\n  .mi-forma-proof__text strong {\n    display: inline;\n    font-weight: 700;\n    color: #ffffff;\n  }\n\n  .mi-forma-proof__text span {\n    display: inline;\n    margin-left: 3px;\n    color: rgba(255, 255, 255, 0.9);\n  }\n\n  @media screen and (max-width: 749px) {\n    .mi-forma-proof {\n      gap: 10px;\n      padding: 9px 12px;\n      margin-bottom: 12px;\n      border-radius: 14px;\n    }\n\n    .mi-forma-proof__avatars img {\n      width: 27px;\n      height: 27px;\n      margin-left: -7px;\n    }\n\n    .mi-forma-proof__rating {\n      font-size: 13px;\n    }\n\n    .mi-forma-proof__stars {\n      font-size: 13px;\n    }\n\n    .mi-forma-proof__text {\n      font-size: 12px;\n    }\n  }\n</style>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -83,6 +89,7 @@
       },
       "block_order": [
         "vendor",
+        "liquid_xbh8KL",
         "title",
         "badges",
         "price",
