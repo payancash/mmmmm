@@ -78,6 +78,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_HVfeJJ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- for type in shop.enabled_payment_types -%}\n  {{ type | payment_type_svg_tag: class: 'pdp-payment-badges__icon' }}\n{%- endfor -%}"
+          }
+        },
         "liquid_yCJ4EL": {
           "type": "liquid",
           "settings": {
@@ -114,6 +120,7 @@
         "kaching_bundles_app_block_wMkzjf",
         "liquid_qDYmdt",
         "buy_buttons",
+        "liquid_HVfeJJ",
         "liquid_yCJ4EL",
         "liquid_KCqTnx",
         "liquid_8UgkBA",
