@@ -19,31 +19,13 @@
           "settings": {
             "image_width": 150,
             "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
+            "title": "Inscrivez-vous pour recevoir de nouveaux articles et des offres personnalisées",
             "content": ""
-          }
-        },
-        "links": {
-          "type": "links",
-          "settings": {
-            "menu": "footer",
-            "show_menu_title": true,
-            "menu_title": ""
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
-            "enable_follow_on_shop": true
           }
         }
       },
       "block_order": [
-        "newsletter",
-        "links",
-        "text"
+        "newsletter"
       ],
       "settings": {
         "show_social_media": true,
